@@ -2,21 +2,23 @@
 
 #### Controllers
 
-@RestController
+| Anotacion    | Descripción |
+|:-------------|:------------:|
+| @RestController | Definicion rest controller. |
+| @RequestMapping("/ruta") | Explicacion de lo anterior |
+| @CrossOrigin("*") | Descripcion de CrossOrigin * para recibir de toos lados las request | 
+| @PostMapping("/login") | se pone antes de un metodo | 
+| @GetMapping | Rutea la petición por GET para un metodo en particular. Se anota antes de la firma del método |
 
-@RequestMapping("/auth")
-
-@CrossOrigin("*")
-
-**Antes de cada clase**
-
-@PostMapping("/login")
-@GetMapping
+----
 
 
 #### Servicios interface
+| Anotacion    | Descripción |
+|:-------------|:------------:|
+| @Service | Definicion de servicio en Springboot. |
 
-@Service
+
 
 #### Servicios Implementación
 
