@@ -3,7 +3,9 @@
 #### Controllers
 
 @RestController
+
 @RequestMapping("/auth")
+
 @CrossOrigin("*")
 
 **Antes de cada clase**
@@ -27,3 +29,7 @@
 #### Repositorios
 
 @Repository
+
+#### Inyección dependencias automáticamente
+
+@Autowired
