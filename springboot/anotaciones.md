@@ -1,5 +1,10 @@
 ### Anotaciones para SpringBoot
 
+#### Main Clase Main
+| Anotacion    | Descripción |
+|:-------------|:------------:|
+| @SpringBootApplication | Para indicar que sera la clase principal de Springboot, la que hace iniciar todo, el génesis. |
+
 #### Controllers
 
 | Anotacion    | Descripción |
@@ -19,19 +24,28 @@
 | @Service | Definicion de servicio en Springboot. |
 
 
-
 #### Servicios Implementación
 
-@Component
+| Anotacion    | Descripción |
+|:-------------|:------------:|
+| @Component | Componente para implementar el servicio de la interface. |
+
 
 #### Entidades
 
-@Entity
+| Anotacion    | Descripción |
+|:-------------|:------------:|
+| @Entity | Anotación para entidad |
 
 #### Repositorios
 
-@Repository
+| Anotacion    | Descripción |
+|:-------------|:------------:|
+| @Repository | Anotación para repositorio |
 
 #### Inyección dependencias automáticamente
 
-@Autowired
+| Anotacion    | Descripción |
+|:-------------|:------------:|
+| @Autowired | Anotación para repositorio |
+
