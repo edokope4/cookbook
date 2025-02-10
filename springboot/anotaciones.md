@@ -17,7 +17,6 @@
 
 ----
 
-
 #### Servicios interface
 | Anotacion    | Descripción |
 |:-------------|:------------:|
@@ -38,6 +37,8 @@
 | @Entity | Anotación para entidad |
 
 #### Repositorios
+
+Esta anotación indica que esta interfaz es un repositorio de Spring. Los repositorios en Spring son responsables de interactuar con la capa de persistencia (por ejemplo, una base de datos). Spring gestiona automáticamente la creación de una implementación de esta interfaz en tiempo de ejecución.
 
 | Anotacion    | Descripción |
 |:-------------|:------------:|
